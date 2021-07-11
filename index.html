@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div-content">
+    <h1>Currency Converter</h1>
+
+<marquee direction="left">Welcome to the Online Currency Converter</marquee>
+<br><br>
+
+<div class="converter-div">
+
+<form  name="converter">
+
+<fieldset>
+
+<label>UZB Currency(UZS):  </label>
+
+<input type="number" name="UZS" required>
+ 
+<input type="button" value="Convert" onclick="currencyConverter(converter.UZS.value)"><br><br>
+
+<label>Dollar(American): </label>
+
+<input id="dollar"><br><br>
+
+<label>Yuan(China): </label>
+
+<input id="yuan"><br><br>
+
+<label>Won(Korea): </label>
+
+<input id="won"><br><br>
+
+<label>Rubl(Russian): </label>
+
+<input id="rubl"><br><br>
+
+
+<input type="reset" value="Reset Form">
+
+<p align="center">You can press Reset Button for reseting the form</p>
+
+</fieldset>
+</form>
+</div>
+</div>
+<script src="./script/script.js"></script>
+</body>
+</html>
